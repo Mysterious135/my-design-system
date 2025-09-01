@@ -1,0 +1,37 @@
+/* src/components/Tabs.module.css */
+
+.tablist {
+  display: flex;
+  border-bottom: 2px solid var(--surface);
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--foreground);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tab:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.tab[aria-selected='true'] {
+  color: var(--primary);
+  border-color: var(--primary);
+  font-weight: 700;
+}
+
+.tabpanel {
+  padding: 20px;
+  border: 2px solid var(--surface);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}

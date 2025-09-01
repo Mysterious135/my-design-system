@@ -1,0 +1,39 @@
+/* src/components/Button.module.css */
+
+.button {
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Inter', sans-serif;
+}
+
+.button:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Primary Variant */
+.primary {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+.primary:hover {
+  opacity: 0.9;
+}
+
+/* Secondary Variant */
+.secondary {
+  background-color: var(--surface);
+  color: var(--foreground);
+  border-color: var(--primary);
+}
+
+.secondary:hover {
+  background-color: var(--primary);
+  color: var(--background);
+}
