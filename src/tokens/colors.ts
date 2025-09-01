@@ -2,7 +2,7 @@
 
 export const colors = {
   // Brand Colors
-  primary: '#0070f3', // A nice blue
+  primary: '#22c55e', // A nice blue
   secondary: '#ff4081', // A vibrant pink
 
   // Neutral Colors
