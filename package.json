@@ -12,14 +12,12 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_873b8a90b0e259b"
   },
-
   "size-limit": [
     {
       "path": "dist/new-design-system.es.js",
       "limit": "15 KB"
     }
   ],
-  
   "dependencies": {
     "@tanstack/react-table": "^8.21.3",
     "@tanstack/react-virtual": "^3.13.12",
@@ -30,6 +28,10 @@
     "recharts": "^3.1.2"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.5",
+    "@semantic-release/npm": "^12.0.2",
     "@size-limit/preset-small-lib": "^11.2.0",
     "@storybook/addon-a11y": "^8.1.11",
     "@storybook/addon-essentials": "^8.1.11",
@@ -46,6 +48,7 @@
     "chromatic": "^11.5.4",
     "eslint": "^8.57.0",
     "eslint-plugin-storybook": "^0.8.0",
+    "semantic-release": "^24.2.7",
     "size-limit": "^11.2.0",
     "storybook": "^8.1.11",
     "typescript": "^5.2.2",
